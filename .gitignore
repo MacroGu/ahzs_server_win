@@ -1,0 +1,14 @@
+# .gitignore file
+# 一些编译产生的 可执行文件，目标链接文件，等等 不会被添加到 git 管理
+
+/_objs/
+/bin/
+/thirdpart/所有的压缩源文件
+/thirdpart/redis
+/build/Debug
+/lib/
+*.sdf
+*.suo
+*.filters
+*.opensdf
+*.user

@@ -1,0 +1,100 @@
+14:59:40.000000  [INFO    ][CWorldBase::init()]
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_8
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_9
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_10
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_11
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_12
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_13
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_14
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_15
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_16
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_17
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_18
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_19
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_20
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_21
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_22
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_23
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_24
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_25
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_26
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_27
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_28
+14:59:40.000000  [WARNING ][init_cfg]warning:missed section:server_29
+14:59:40.000000  [DEBUG   ][CDefParser::init]==========
+14:59:40.000000  [DEBUG   ][CDefParser::init]m_EntityDefMd5 = f7974f8bc907fde29df1e3e671ecca20
+14:59:40.000000  [SCRIPT  ][INFO][add_all_lua_path]begin=====================================================
+14:59:40.000000  [SCRIPT  ][INFO][package.path];E:\git_workspace\master_ahzs_server_win\bin\lua\?.lua;E:\git_workspace\master_ahzs_server_win\bin\lua\?\init.lua;E:\git_workspace\master_ahzs_server_win\bin\?.lua;E:\git_workspace\master_ahzs_server_win\bin\?\init.lua;.\?.lua;C:\Program Files (x86)\Lua\5.1\lua\?.luac;../scripts/base/?.lua;../scripts/base/?.luac
+14:59:40.000000  [SCRIPT  ][INFO][G_LUA_ROOTPATH]../scripts
+14:59:40.000000  [SCRIPT  ][INFO][package.path];E:\git_workspace\master_ahzs_server_win\bin\lua\?.lua;E:\git_workspace\master_ahzs_server_win\bin\lua\?\init.lua;E:\git_workspace\master_ahzs_server_win\bin\?.lua;E:\git_workspace\master_ahzs_server_win\bin\?\init.lua;.\?.lua;C:\Program Files (x86)\Lua\5.1\lua\?.luac;../scripts/base/?.lua;../scripts/base/?.luac;../scripts/common/?.lua;../scripts/common/?.luac;../scripts/common/data/?.lua;../scripts/common/data/?.luac;../scripts/base/mgr/?.lua;../scripts/base/mgr/?.luac;../scripts/test/?.lua;../scripts/test/?.luac;../scripts/base/SubSystem/?.lua;../scripts/base/SubSystem/?.luac;../scripts/base/SubSystem/GM/?.lua;../scripts/base/SubSystem/GM/?.luac;../scripts/base/SpaceLoader/?.lua;../scripts/base/SpaceLoader/?.luac;../scripts/lualibs/?.lua;../scripts/lualibs/?.luac
+14:59:40.000000  [SCRIPT  ][INFO][add_all_lua_path]end=======================================================
+14:59:40.000000  [ERROR   ][world::init()]dostring error:../scripts/lualibs/mobdebug.lua:74: module 'socket' not found:
+	no field package.preload['socket']
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\lua\socket.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\lua\socket\init.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\socket.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\socket\init.lua'
+	no file '.\socket.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\socket.luac'
+	no file '../scripts/base/socket.lua'
+	no file '../scripts/base/socket.luac'
+	no file '../scripts/common/socket.lua'
+	no file '../scripts/common/socket.luac'
+	no file '../scripts/common/data/socket.lua'
+	no file '../scripts/common/data/socket.luac'
+	no file '../scripts/base/mgr/socket.lua'
+	no file '../scripts/base/mgr/socket.luac'
+	no file '../scripts/test/socket.lua'
+	no file '../scripts/test/socket.luac'
+	no file '../scripts/base/SubSystem/socket.lua'
+	no file '../scripts/base/SubSystem/socket.luÌÌÌÌàDÙ]pú=
+15:53:23.000000  [INFO    ][CWorldBase::init()]
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_8
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_9
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_10
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_11
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_12
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_13
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_14
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_15
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_16
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_17
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_18
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_19
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_20
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_21
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_22
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_23
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_24
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_25
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_26
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_27
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_28
+15:53:23.000000  [WARNING ][init_cfg]warning:missed section:server_29
+15:53:23.000000  [DEBUG   ][CDefParser::init]==========
+15:53:23.000000  [DEBUG   ][CDefParser::init]m_EntityDefMd5 = f7974f8bc907fde29df1e3e671ecca20
+15:53:23.000000  [SCRIPT  ][INFO][add_all_lua_path]begin=====================================================
+15:53:23.000000  [SCRIPT  ][INFO][package.path];E:\git_workspace\master_ahzs_server_win\bin\lua\?.lua;E:\git_workspace\master_ahzs_server_win\bin\lua\?\init.lua;E:\git_workspace\master_ahzs_server_win\bin\?.lua;E:\git_workspace\master_ahzs_server_win\bin\?\init.lua;.\?.lua;C:\Program Files (x86)\Lua\5.1\lua\?.luac;../scripts/base/?.lua;../scripts/base/?.luac
+15:53:23.000000  [SCRIPT  ][INFO][G_LUA_ROOTPATH]../scripts
+15:53:23.000000  [SCRIPT  ][INFO][package.path];E:\git_workspace\master_ahzs_server_win\bin\lua\?.lua;E:\git_workspace\master_ahzs_server_win\bin\lua\?\init.lua;E:\git_workspace\master_ahzs_server_win\bin\?.lua;E:\git_workspace\master_ahzs_server_win\bin\?\init.lua;.\?.lua;C:\Program Files (x86)\Lua\5.1\lua\?.luac;../scripts/base/?.lua;../scripts/base/?.luac;../scripts/common/?.lua;../scripts/common/?.luac;../scripts/common/data/?.lua;../scripts/common/data/?.luac;../scripts/base/mgr/?.lua;../scripts/base/mgr/?.luac;../scripts/test/?.lua;../scripts/test/?.luac;../scripts/base/SubSystem/?.lua;../scripts/base/SubSystem/?.luac;../scripts/base/SubSystem/GM/?.lua;../scripts/base/SubSystem/GM/?.luac;../scripts/base/SpaceLoader/?.lua;../scripts/base/SpaceLoader/?.luac;../scripts/lualibs/?.lua;../scripts/lualibs/?.luac
+15:53:23.000000  [SCRIPT  ][INFO][add_all_lua_path]end=======================================================
+15:53:23.000000  [ERROR   ][world::init()]dostring error:../scripts/lualibs/mobdebug.lua:74: module 'socket' not found:
+	no field package.preload['socket']
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\lua\socket.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\lua\socket\init.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\socket.lua'
+	no file 'E:\git_workspace\master_ahzs_server_win\bin\socket\init.lua'
+	no file '.\socket.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\socket.luac'
+	no file '../scripts/base/socket.lua'
+	no file '../scripts/base/socket.luac'
+	no file '../scripts/common/socket.lua'
+	no file '../scripts/common/socket.luac'
+	no file '../scripts/common/data/socket.lua'
+	no file '../scripts/common/data/socket.luac'
+	no file '../scripts/base/mgr/socket.lua'
+	no file '../scripts/base/mgr/socket.luac'
+	no file '../scripts/test/socket.lua'
+	no file '../scripts/test/socket.luac'
+	no file '../scripts/base/SubSystem/socket.lua'
+	no file '../scripts/base/SubSystem/socket.luÌÌÌÌÖÙOsdø|

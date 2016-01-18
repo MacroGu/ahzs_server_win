@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A001FF2-6041-4137-A968-709E45B843D5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\lib\</OutDir>
+    <IntDir>..\_objs\$(ProjectName)_d\$(Configuration)\</IntDir>
+    <ExecutablePath>$(VCInstallDir)PlatformSDK\bin;$(VCInstallDir)PlatformSDK\common\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(VCInstallDir)PlatformSDK\include;$(VCInstallDir)PlatformSDK\common\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <TargetName>$(ProjectName)</TargetName>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;__LUA_5_1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include;..\include\lua;..\include\tinyxml;..\include\pthread;..\include\mysql;..\base;..\cell;..\thirdpart\redis\deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/J %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aoi.cpp" />
+    <ClCompile Include="balance.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="bitcryto.cpp" />
+    <ClCompile Include="cfg_reader.cpp" />
+    <ClCompile Include="cjson.cpp" />
+    <ClCompile Include="dbmgr.cpp" />
+    <ClCompile Include="dboper.cpp" />
+    <ClCompile Include="db_task.cpp" />
+    <ClCompile Include="debug.cpp" />
+    <ClCompile Include="defparser.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="entity_base.cpp" />
+    <ClCompile Include="entity_cell.cpp" />
+    <ClCompile Include="entity_mgr.cpp" />
+    <ClCompile Include="epoll_server.cpp" />
+    <ClCompile Include="exception.cpp" />
+    <ClCompile Include="json_helper.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="lua_base.cpp" />
+    <ClCompile Include="lua_bitset.cpp" />
+    <ClCompile Include="lua_cell.cpp" />
+    <ClCompile Include="lua_mogo.cpp" />
+    <ClCompile Include="mailbox.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="memory_pool.cpp" />
+    <ClCompile Include="mutex.cpp" />
+    <ClCompile Include="myredis.cpp" />
+    <ClCompile Include="net_util.cpp" />
+    <ClCompile Include="path_founder.cpp" />
+    <ClCompile Include="pluto.cpp" />
+    <ClCompile Include="rpc_mogo.cpp" />
+    <ClCompile Include="space.cpp" />
+    <ClCompile Include="stopword.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="timer_action.cpp" />
+    <ClCompile Include="type_mogo.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="world_base.cpp" />
+    <ClCompile Include="world_cell.cpp" />
+    <ClCompile Include="world_dbmgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aoi.h" />
+    <ClInclude Include="balance.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="bitcryto.h" />
+    <ClInclude Include="cfg_reader.h" />
+    <ClInclude Include="cjson.h" />
+    <ClInclude Include="dbmgr.h" />
+    <ClInclude Include="dboper.h" />
+    <ClInclude Include="db_task.h" />
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="defparser.h" />
+    <ClInclude Include="delegate.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="entity_base.h" />
+    <ClInclude Include="entity_cell.h" />
+    <ClInclude Include="entity_mgr.h" />
+    <ClInclude Include="epoll_server.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="global_config.h" />
+    <ClInclude Include="json_helper.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="lua_base.h" />
+    <ClInclude Include="lua_bitset.h" />
+    <ClInclude Include="lua_cell.h" />
+    <ClInclude Include="lua_mogo.h" />
+    <ClInclude Include="lua_mogo_impl.h" />
+    <ClInclude Include="mailbox.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="memory_pool.h" />
+    <ClInclude Include="mutex.h" />
+    <ClInclude Include="myredis.h" />
+    <ClInclude Include="my_stl.h" />
+    <ClInclude Include="net_util.h" />
+    <ClInclude Include="path_founder.h" />
+    <ClInclude Include="pluto.h" />
+    <ClInclude Include="rpc_mogo.h" />
+    <ClInclude Include="space.h" />
+    <ClInclude Include="stopword.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="timer_action.h" />
+    <ClInclude Include="type_mogo.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="world.h" />
+    <ClInclude Include="world_base.h" />
+    <ClInclude Include="world_cell.h" />
+    <ClInclude Include="world_dbmgr.h" />
+    <ClInclude Include="world_select.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

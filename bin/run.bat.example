@@ -1,0 +1,20 @@
+@echo off
+REM start your program, if the path has space
+REM sleep 1s
+start "syncdb" ".\syncdb.exe" ./cfg.ini
+REM sleep 1s
+start "cwmd 8002" ".\cwmd.exe" ./cfg.ini
+REM sleep 1s
+start "loginapp 8001" ".\loginapp.exe" ./cfg.ini 1 ./log/loginlog_1
+REM sleep 1s
+start "dbmgr 8003" ".\dbmgr.exe" ./cfg.ini 3 ./log/dblog_3
+REM sleep 1s
+start "timerd 8004" ".\timerd.exe" ./cfg.ini 4 ./log/timerd_4
+REM sleep 1s
+start "logapp 8005" ".\logapp.exe" ./cfg.ini 5 ./log/logapplog_5
+REM sleep 1s
+start "baseapp 8006" ".\baseapp.exe" ./cfg.ini 6 ./log/baselog_6
+REM sleep 1s
+start "cellapp 8007" ".\cellapp.exe" ./cfg.ini 7 ./log/celllog_7
+REM exit this cmd
+exit

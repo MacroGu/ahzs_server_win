@@ -1,0 +1,40 @@
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_8
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_9
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_10
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_11
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_12
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_13
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_14
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_15
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_16
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_17
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_18
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_19
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_20
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_21
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_22
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_23
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_24
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_25
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_26
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_27
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_28
+16:13:18.000000  [WARNING ][init_cfg]warning:missed section:server_29
+16:13:18.000000  [DEBUG   ][CDefParser::init]==========
+16:13:18.000000  [DEBUG   ][CDefParser::init]m_EntityDefMd5 = f7974f8bc907fde29df1e3e671ecca20
+16:13:18.000000  [INFO    ][world::initNextEntityId]init_id=16777216
+16:13:18.000000  [DEBUG   ][CEpollServer::AddFdAndMb]serverName=
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=136;fd_type=1;addr=;port=8001;authz=0
+16:13:18.000000  [DEBUG   ][start_server]:8001,success.
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=140;fd_type=2;addr=192.168.123.11;port=8002;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=192.168.123.11;port=8002
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=156;fd_type=2;addr=192.168.123.11;port=8003;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=192.168.123.11;port=8003
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=160;fd_type=2;addr=192.168.123.11;port=8004;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=192.168.123.11;port=8004
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=164;fd_type=2;addr=192.168.123.11;port=8005;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=192.168.123.11;port=8005
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=168;fd_type=2;addr=127.0.0.1;port=8006;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=127.0.0.1;port=8006
+16:13:18.000000  [DEBUG   ][CEpollServer::addFdAndMb]fd=172;fd_type=2;addr=127.0.0.1;port=8007;authz=0
+16:13:18.000000  [DEBUG   ][try_to_connect_mailbox]server=127.0.0.1;port=8007
